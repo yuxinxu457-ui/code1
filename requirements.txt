@@ -1,0 +1,10 @@
+# Python 3.14. Pinned versions used to produce the shipped results (CPU only).
+jax==0.10.2
+jaxlib==0.10.2
+flax==0.12.7          # frozen CSNN (src/frozen_csnn_weights.msgpack, read with flax.serialization)
+optax==0.2.8          # installed with flax; pinned for reproducibility
+numpy==2.5.0
+scipy==1.18.0
+matplotlib==3.11.0
+msgpack>=1.0.0
+cairosvg>=2.7.0       # Fig. 1: SVG -> PDF/PNG
